@@ -75,7 +75,7 @@ If the setup is successful, Playwright will execute the configured tests across 
 For a new machine, the basic setup sequence is:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ashish-bista-hub/QE-Assessment
 cd QE-Assessment
 npm ci
 npx playwright install
