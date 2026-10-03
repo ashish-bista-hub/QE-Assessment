@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://emicalculator.net/",
+  "selectors": {
+    "loanAmountInput": "#loanamount",
+    "interestRateInput": "#loaninterest",
+    "loanTenureInput": "#loanterm",
+    "loanAmountSlider": "#loanamountslider .ui-slider-handle",
+    "interestRateSlider": "#loaninterestslider .ui-slider-handle",
+    "loanTenureSlider": "#loantermslider .ui-slider-handle",
+    "emiAmount": "#emiamount span",
+    "excelDownload": ".ecaldownloadexcel"
+  }
+}

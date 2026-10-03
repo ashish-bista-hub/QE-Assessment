@@ -1,0 +1,76 @@
+{
+  "emiScenarios": [
+    {
+      "name": "Default values",
+      "loanAmount": 5000000,
+      "interestRate": 9,
+      "tenureYears": 20,
+      "loanAmountSliderSteps": 0,
+      "interestRateSliderSteps": 0,
+      "tenureSliderSteps": 0
+    },
+    {
+      "name": "Higher loan amount",
+      "loanAmount": 5500000,
+      "interestRate": 10,
+      "tenureYears": 25,
+      "loanAmountSliderSteps": 5,
+      "interestRateSliderSteps": 4,
+      "tenureSliderSteps": 10
+    },
+    {
+      "name": "Lower interest rate",
+      "loanAmount": 5000000,
+      "interestRate": 7,
+      "tenureYears": 20,
+      "loanAmountSliderSteps": 0,
+      "interestRateSliderSteps": -8,
+      "tenureSliderSteps": 0
+    },
+    {
+      "name": "Higher interest rate",
+      "loanAmount": 5000000,
+      "interestRate": 12,
+      "tenureYears": 20,
+      "loanAmountSliderSteps": 0,
+      "interestRateSliderSteps": 12,
+      "tenureSliderSteps": 0
+    },
+    {
+      "name": "Short tenure",
+      "loanAmount": 5000000,
+      "interestRate": 9,
+      "tenureYears": 10,
+      "loanAmountSliderSteps": 0,
+      "interestRateSliderSteps": 0,
+      "tenureSliderSteps": -20
+    },
+    {
+      "name": "Long tenure",
+      "loanAmount": 5000000,
+      "interestRate": 9,
+      "tenureYears": 30,
+      "loanAmountSliderSteps": 0,
+      "interestRateSliderSteps": 0,
+      "tenureSliderSteps": 20
+    },
+    {
+      "name": "Higher loan with higher interest",
+      "loanAmount": 10000000,
+      "interestRate": 12,
+      "tenureYears": 25,
+      "loanAmountSliderSteps": 50,
+      "interestRateSliderSteps": 12,
+      "tenureSliderSteps": 10
+    },
+    {
+      "name": "Lower loan with shorter tenure",
+      "loanAmount": 2000000,
+      "interestRate": 8,
+      "tenureYears": 10,
+      "loanAmountSliderSteps": -30,
+      "interestRateSliderSteps": -4,
+      "tenureSliderSteps": -20
+    }
+  ]
+}
